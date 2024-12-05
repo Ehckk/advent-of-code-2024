@@ -43,7 +43,6 @@ def solve():
 					if not (0 <= c_offset < len(matrix[0])):
 						found = False
 						break
-					print(matrix[r_offset][c_offset])
 					if matrix[r_offset][c_offset] != letter:
 						found = False
 						break
